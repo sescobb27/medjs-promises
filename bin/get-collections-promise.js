@@ -389,11 +389,13 @@ let _ = require('lodash');
     }
   }]
 */
-let collectionsPromise = new Promise((resolve, reject) => {
-  request('https://ec-api-staging.herokuapp.com/collections', (err, res, body) => {
-    resolve(JSON.parse(body).data);
+function getCollections() {
+  return new Promise((resolve, reject) => {
+    request('https://ec-api-staging.herokuapp.com/collections', (err, res, body) => {
+      resolve(JSON.parse(body).data);
+    });
   });
-});
+}
 
 function getProduct(product) {
   return new Promise((resolve, reject) => {
@@ -403,7 +405,8 @@ function getProduct(product) {
   });
 }
 
-collectionsPromise.then((collections) => {
+getCollections()
+  .then((collections) => {
     let names = collections.map((col) => col.attributes.title);
     console.log('Names: ', names);
     let products = collections.map((col) => col.relationships.products.data);
