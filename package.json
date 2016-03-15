@@ -1,0 +1,15 @@
+{
+  "name": "medjs-promises",
+  "version": "1.0.0",
+  "description": "Med.JS Meetup Promises - Code Examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "sescobb27@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.6.1",
+    "request": "^2.69.0"
+  }
+}
