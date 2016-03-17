@@ -1,5 +1,8 @@
 'use strict';
-
+/*
+This Code is not intended to work, it was extracted from E&C internal product
+to show Advance Promise examples.
+ */
 let promiseNumber = new Promise((resolve, reject) => {
   resolve(5);
 });

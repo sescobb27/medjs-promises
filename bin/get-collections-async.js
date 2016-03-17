@@ -393,8 +393,8 @@ request('https://ec-api-staging.herokuapp.com/collections', (err, res, body) => 
   let collections = JSON.parse(body).data;
   let names = collections.map((col) => col.attributes.title);
   console.log('Names: ', names);
-  let products = collections.map((col) => col.relationships.products.data);
-  let productIds = _.flatten(products).map((product) => product.id);
+  let products = _.flatMap(collections, (col) => col.relationships.products.data);
+  let productIds = products.map((product) => product.id);
   return getProducts(productIds);
 });
 
