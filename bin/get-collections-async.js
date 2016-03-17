@@ -11,7 +11,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "FA16",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/fa-collection-bg.jpg",
       "status": "inactive",
       "title": "Fall 2016",
       "season-start-date": "2016-04-01T00:00:00.000Z"
@@ -32,7 +31,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "SP14",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/sp-collection-bg.jpg",
       "status": "inactive",
       "title": "Spring 2014",
       "season-start-date": "2014-11-01T00:00:00.000Z"
@@ -62,7 +60,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "WN14",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/wn-collection-bg.jpg",
       "status": "inactive",
       "title": "Winter 2014",
       "season-start-date": "2014-08-01T00:00:00.000Z"
@@ -92,7 +89,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "FA14",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/fa-collection-bg.jpg",
       "status": "inactive",
       "title": "Fall 2014",
       "season-start-date": "2014-04-01T00:00:00.000Z"
@@ -122,7 +118,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "SM14",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/sm-collection-bg.jpg",
       "status": "inactive",
       "title": "Summer 2014",
       "season-start-date": "2014-02-01T00:00:00.000Z"
@@ -152,7 +147,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "SP15",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/sp-collection-bg.jpg",
       "status": "inactive",
       "title": "Spring 2015",
       "season-start-date": "2015-11-01T00:00:00.000Z"
@@ -182,7 +176,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "WN15",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/wn-collection-bg.jpg",
       "status": "inactive",
       "title": "Winter 2015",
       "season-start-date": "2015-08-01T00:00:00.000Z"
@@ -212,7 +205,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "FA15",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/fa-collection-bg.jpg",
       "status": "inactive",
       "title": "Fall 2015",
       "season-start-date": "2015-04-01T00:00:00.000Z"
@@ -242,7 +234,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "SM15",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/sm-collection-bg.jpg",
       "status": "inactive",
       "title": "Summer 2015",
       "season-start-date": "2015-02-01T00:00:00.000Z"
@@ -272,7 +263,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "SP16",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/sp-collection-bg.jpg",
       "status": "active",
       "title": "Spring 2016",
       "season-start-date": "2016-11-01T00:00:00.000Z"
@@ -308,7 +298,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "FC",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/fc-collection-bg.jpg",
       "status": "active",
       "title": "Forever",
       "season-start-date": "2011-02-01T00:00:00.000Z"
@@ -347,7 +336,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "WN16",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/wn-collection-bg.jpg",
       "status": "inactive",
       "title": "Winter 2016",
       "season-start-date": "2016-08-01T00:00:00.000Z"
@@ -371,7 +359,6 @@ let _ = require('lodash');
     },
     "attributes": {
       "code": "SM16",
-      "image": "https://ec-staging.s3.amazonaws.com/assets/dev-images/sm-collection-bg.jpg",
       "status": "inactive",
       "title": "Summer 2016",
       "season-start-date": "2016-02-01T00:00:00.000Z"
